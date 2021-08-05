@@ -33,5 +33,6 @@ for i in range(0,100):
                 pg.press("enter")
                 print(messages)
                 lis.pop(0)
-
+    if "!stop" in latest_msg:
+        exit()
 
