@@ -25,8 +25,6 @@ for i in range(0,100):
             if i==0:
                 whatsapp.sendwhatmsg_instantly(phone,"INITIALIZING... Thank you for waiting. ChatBot started. Made by Kushagra\n\n"+a,15,True)
                 lis.append(latest_msg)
-                #whatsapp.text_to_handwriting(a)
-                #whatsapp.sendwhats_image("+9145020880","C:/Users/Kushagra/Documents/py/1.png", "SENT BY BOT", 15)
                 clipboard.copy(a)
             if latest_msg!=lis[-1]:
                 lis.append(latest_msg)

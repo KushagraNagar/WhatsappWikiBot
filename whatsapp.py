@@ -31,7 +31,7 @@ class WhatsApp:
     browser =  None
     timeout = 10  # The timeout is set for about ten seconds
     def __init__(self, wait, screenshot=None, session=None):
-        self.browser = webdriver.Firefox(executable_path="C:/Users/Kushagra/Documents/py/geckodriver.exe")# change path
+        self.browser = webdriver.Firefox(executable_path="geckodriver.exe")# change path
         self.browser.get("https://web.whatsapp.com/") #to open the WhatsApp web
         # you need to scan the QR code in here (to eliminate this step, I will publish another blog
         WebDriverWait(self.browser,wait).until( 
