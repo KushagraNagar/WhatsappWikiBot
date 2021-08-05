@@ -4,7 +4,6 @@ import time
 import datetime
 import os
 import clipboard
-from pytube import YouTube
 import pyautogui as pg
 
 phone=input("Please enter the phone number of your contact: ")
